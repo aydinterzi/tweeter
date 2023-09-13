@@ -31,8 +31,11 @@ const trends = [
 
 function TrendsForYou() {
   return (
-    <div className='px-5 py-3 shadow-md rounded-lg bg-white'><h3>Trends for you</h3>
-    <hr />
+    <div className='flex flex-col gap-6 px-5 py-3 shadow-md rounded-lg bg-white'>
+    <div>
+        <h3>Trends for you</h3>
+        <hr />
+    </div>
     {trends.map((trend, index) => (
         <div key={index} className='flex flex-col gap-1'>
             <span className='font-semibold text-base text-gray-1'>#{trend.title}</span>
