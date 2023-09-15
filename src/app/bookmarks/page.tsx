@@ -4,7 +4,7 @@ import React from 'react'
 
 function BookmarksPage() {
   return (
-    <div className="flex gap-6 ">
+    <div className="flex gap-6 px-44 pt-6">
       <div className="basis-1/4">
       
       <TweetFilter/>

@@ -4,7 +4,7 @@ import TweetSomething from "@/components/tweet-something";
 
 export default function Home() {
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-6 px-44 pt-6">
       <div className="flex flex-col gap-14 basis-3/4">
         <TweetSomething/>
         <Tweet/>
